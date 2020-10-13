@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "goodtimes";
+  src: url('../fonts/good times rg.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #fff !important; /* Primary color, can be changed via colors.css */
+}
+
+.carousel-caption{
+  bottom:35%;
+}
+
+.pace .pace-progress{
+  background: rgba(6,23,144, 1);
+}
+
+.navbar-custom.top-nav-collapse{
+  background: rgba(5,19,120, 0.5);
+}
+
+.overlay{
+  background: rgba(5,19,120, 0.65);
+  color: #fff !important;
+}
+
+.btn, .carousel-caption .intro-text {
+  font-weight: bold;
+}
+
+.text-intro{
+  background-color: rgba(0,0,0,0.55);
+  border-radius: 50px;
+}
+.intro-text{
+  color:rgb(188, 197, 255, 0.75) !important;
+  margin-bottom: 15px;
+}
+
+.font-text{
+    font-family: "goodtimes";
+}
+
+.follow-title{
+  margin-bottom: 30px;
+}
+
+.social{
+  margin-bottom:15px;
+}
+
+.social-icon{
+  margin-left: 7%;
+  margin-right: 7%;
+  color: #fff;
+}
+
+.social-icon:hover{
+  color:blue;
+  -webkit-transition: color 0.8s ease-in-out;
+     -moz-transition: color 0.8s ease-in-out;
+          transition: color 0.8s ease-in-out;
+  -webkit-animation: rotateplane 1.2s infinite ease-in-out;
+          animation: rotateplane 1.2s infinite ease-in-out;
+}
+
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+#typed{
+  margin-bottom: 25px;
+}
+
+#typed_wrap {
+	display: block;
+	border: 4px solid #ecf0f1;
+	width: 290px;
+	height: auto;
+	padding: 30px;
+
+	/*centers it in the .banner*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+#typed_wrap h1 {
+	display: inline;
+}
+
+/*Add custom cursor so it auto inherits font styles*/
+#typed::after {
+  color:#fff;
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+#typed-cursor{
+   opacity: 0;
+	display: none;
+}

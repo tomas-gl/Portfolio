@@ -1,0 +1,50 @@
+.jumbotron{
+    padding: 25px 25px;
+    padding-bottom: 45px;
+    margin-bottom: 10px !important;
+    color: #00004d;
+    background-color:  #0040ff;
+}
+
+.fa-user-circle, .fa-user-md, .fa-pills, .fa-file-medical{
+    font-size: 70px;
+}
+
+.name{
+    padding-left:40px;
+    font-size: 30px;
+}
+
+.adresse{
+    margin-top: 15px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.datecoef{
+    float:right;
+    font-size:20px;
+}
+
+.composition{
+    margin-top: 15px;
+    padding-left: 40px;
+    font-size: 20px;   
+}
+
+.input-group{
+    width: 300px;
+    margin: 67px;
+}
+
+.table{
+    background-color: #000080;
+}
+
+.table tr:hover{
+    background-color: #0000cc !important;
+}
+
+.table td, table th{
+    vertical-align: middle !important;
+}

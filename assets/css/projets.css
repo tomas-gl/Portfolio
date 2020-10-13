@@ -1,0 +1,83 @@
+.lien-site:hover{
+  color:rgba(254,82,76, 1) !important;
+}
+
+.full-project{
+  background:rgba(24, 28, 150, 1) !important;
+}
+
+.project-navigation a:hover{
+  background:rgba(24, 28, 150, 1) !important;
+}
+
+.recent-project{
+  margin:10px;
+}
+
+.recent-project::before{
+  background: rgba(59,59,59,0.9);
+  transition: all 0.5s;
+}
+
+.wiggle{
+    animation: wiggle 2s infinite linear;
+    margin-bottom: 40px;
+}
+
+@keyframes wiggle {
+  0% {transform: rotate(10deg);}
+  25% {transform: rotate(-10deg);}
+  50% {transform: rotate(7deg);}
+  75% {transform: rotate(-7deg);}
+  100% {transform: rotate(7deg);}
+}
+
+.text-project{
+  margin-top: 50px;
+}
+
+.project-container {
+  margin-top: 10px;
+}
+
+.project-info{
+margin-top:0;
+top:25%;
+}
+
+.closer{
+  -moz-transition: color 0.5s ease-in-out;
+  -webkit-transition: color 0.5s ease-in-out;
+  -ms-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+  border-style: solid;
+  border-width: 2px;
+  background: unset !important;
+  color: rgba(255, 255, 255, 0.45) !important;
+  height: unset !important;
+}
+
+.closer:hover{
+  -moz-transition: color 0.5s ease-in-out;
+  -webkit-transition: color 0.5s ease-in-out;
+  -ms-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.nav-next, .nav-previous{
+  -moz-transition: color 0.5s ease-in-out;
+  -webkit-transition: color 0.5s ease-in-out;
+  -ms-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+  color: rgba(255, 255, 255, 0.15) !important;
+}
+
+
+.nav-next:hover, .nav-previous:hover{
+  -moz-transition: color 0.5s ease-in-out;
+  -webkit-transition: color 0.5s ease-in-out;
+  -ms-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+  color: rgba(255, 255, 255, 0.8) !important;
+}

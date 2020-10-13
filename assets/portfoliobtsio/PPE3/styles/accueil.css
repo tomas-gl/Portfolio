@@ -1,0 +1,120 @@
+th, td{
+    text-align: center;
+}
+
+.entete{
+    background-color: transparent !important;
+}
+
+.fa-medkit{
+    font-size: 200px;
+    color: blue;
+    float: right;
+    padding-bottom:5px;
+}
+
+.titreaccueil{
+     font-size:30px;
+     font-weight: bold;
+     text-align:center;
+     margin-bottom:100px;
+}
+.creer {
+margin-left:250px;
+font-size: 30px;
+margin-top: 50px;
+}
+
+.boutoncreer{
+background-color: #1a1aff !important;
+margin: 15px !important;
+padding: 25px !important;
+text-decoration: none !important    ;
+color: black !important;
+border-style: solid !important;
+border: 2px;
+border-radius: 5px;
+}
+
+.boutoncreer{
+    cursor: pointer;
+    background-color:#2A1DE1;
+    font-family: "newscycle-bold", sans-serif;
+    font-size: 28px;
+    text-decoration: none !important;
+	margin-right: 28px;
+	border-radius: 2px;
+    color: white !important;
+    padding: 14px 16px;
+    text-decoration: none;
+    overflow: hidden;
+    -webkit-transition: background-color 1.2s;
+    transition: background-color 1.2s;
+    -webkit-transform-origin : top;
+    -moz-transform-origin : top;
+    -o-transform-origin : top;
+    -ms-transform-origin : top;
+    transform-origin : top;
+    -webkit-transition : all ease-in 0.3s;
+    -moz-transition : all ease-in 0.3s;
+    -o-transition : all ease-in 0.3s;
+    -ms-transition : all ease-in 0.3s;
+    transition : all ease-in 0.3s;
+}
+
+.boutoncreer:hover{
+    -webkit-transform : scale(1.2);
+    -moz-transform : scale(1.2);
+    -o-transform : scale(1.2);
+    -ms-transform : scale(1.2);
+    transform : scale(1.2);
+    background-color: rgb(8, 0, 124);
+}
+
+.boutoncreer:hover span{
+    padding-right: 25px;
+}
+
+.boutoncreer:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+
+.boutoncreer > span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.boutoncreer > span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px ;
+    transition: 0.5s;
+}
+
+.boutonop {
+    position: relative;
+    background-color: #1a1aff;
+    border: none;
+    margin-top: 150px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 10px;
+    height: 80px;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.boutonop:hover{
+   text-decoration: none;
+   color: #fff;    
+   background-color: #0055ff ;
+   transition: all 0.2s ease-out;
+}

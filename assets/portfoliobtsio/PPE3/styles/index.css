@@ -1,0 +1,25 @@
+.boutonconnexion {
+    position: relative;
+    background-color: #1a1aff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #FFFFFF;
+    vertical-align: middle;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.boutonconnexion:hover{
+   background-color: #0055ff ;
+   transition: all 0.5s ease-out;
+}
+
+.errormessage{
+    color:red;
+    text-align:center;
+    margin-top:15px;
+    font-size:15px;
+}

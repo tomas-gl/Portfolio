@@ -1,0 +1,112 @@
+.about h3{
+  color: #ffffff !important;
+  padding-top:10px;
+}
+
+.about h2{
+  padding-top:0px;
+}
+
+blockquote span{
+  padding: 0px 0px;
+  padding-top: 10px;
+}
+
+#cv{
+  border-style: solid;
+  border-color:rgba(254,82,76, 1);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+
+#cv:hover{
+  color:#fff !important;
+}
+
+#info{
+  margin-top: 10px;
+}
+
+#cv, a{
+  text-align: center;
+  color: rgba(254,82,76, 1);
+}
+
+.team-member figure:hover figcaption{
+  background: rgba(24, 28, 150, 0.55) !important;
+}
+
+.citation{
+  margin-top: 45px;
+  padding-bottom: 0px;
+}
+
+.nom{
+      color: rgba(254,82,76, 1);
+      font-size: 18px;
+}
+
+.fa-info-circle{
+  margin-bottom: 25px;
+}
+
+.jumpy[data-animation="jump"]{
+-webkit-animation: jump 1.6s ease 0s infinite normal ;
+animation: jump 1.6s ease 0s infinite normal ;
+}
+
+@-webkit-keyframes jump {
+ 0%{
+ -webkit-transform: translateY(0);
+ transform: translateY(0);
+ }
+ 20%{
+ -webkit-transform: translateY(0);
+ transform: translateY(0);
+ }
+ 40%{
+ -webkit-transform: translateY(-15px);
+ transform: translateY(-15px);
+ }
+ 50%{
+ -webkit-transform: translateY(0);
+ transform: translateY(0);
+ }
+ 60%{
+ -webkit-transform: translateY(-8px);
+ transform: translateY(-8px);
+ }
+ 80%{
+ -webkit-transform: translateY(0);
+ transform: translateY(0);
+ }
+ 100%{
+ -webkit-transform: translateY(0);
+ transform: translateY(0);
+ }
+}
+
+@keyframes jump {
+ 0%{
+ transform: translateY(0);
+ }
+ 20%{
+ transform: translateY(0);
+ }
+ 40%{
+ transform: translateY(-15px);
+ }
+ 50%{
+ transform: translateY(0);
+ }
+ 60%{
+ transform: translateY(-8px);
+ }
+ 80%{
+ transform: translateY(0);
+ }
+ 100%{
+ transform: translateY(0);
+ }
+}

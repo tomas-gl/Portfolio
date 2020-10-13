@@ -1,0 +1,10 @@
+$(document).ready(function()
+{
+	$('.progress').each(function()
+		{
+  	$(this).find('.progress-bar').animate(
+  		{
+    	width:$(this).attr('data-percent')
+		},1800);
+		});
+});
