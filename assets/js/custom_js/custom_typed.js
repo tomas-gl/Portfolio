@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$("#typed").typed({
-		strings: ["DÉVELOPPEUR WEB JUNIOR"],
+		strings: ["DÉVELOPPEUR WEB FULL STACK"],
 		// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 		stringsElement: null,
 		// typing speed
